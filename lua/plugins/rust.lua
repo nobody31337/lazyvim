@@ -1,3 +1,5 @@
+-- Plugin setup for Rust
+
 return {
     {
         "mason-org/mason.nvim",
@@ -9,16 +11,16 @@ return {
             }
         }
     },
-    {
-        "mason-org/mason-lspconfig.nvim",
-        opts = {
-            ensure_installed = {
-                --"rust_analyzer",
-                --"bacon_ls",
-                --"slint_lsp",
-            },
-        },
-    },
+    --{
+    --    "mason-org/mason-lspconfig.nvim",
+    --    opts = {
+    --        ensure_installed = {
+    --            "rust_analyzer",
+    --            "bacon_ls",
+    --            "slint_lsp",
+    --        },
+    --    },
+    --},
     {
         "nvim-treesitter/nvim-treesitter",
         opts = {
