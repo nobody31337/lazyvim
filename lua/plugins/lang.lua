@@ -1,12 +1,8 @@
 return {
-    "mason-org/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
     opts = {
         ensure_installed = {
             --"bashls",
-            --"shellcheck",
-            --"shfmt",
-            "basedpyright",
-            "ruff",
             "rust-analyzer",
             "bacon-ls",
             "slint-lsp",
