@@ -37,7 +37,7 @@ return {
             end
         end,
     },
-    { "nvim-neotest/neotest-python" },
+    { "nvim-neotest/neotest-python", },
     {
         "mfussenegger/nvim-dap-python",
         keys = {
