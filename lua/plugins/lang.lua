@@ -4,7 +4,7 @@ return {
         opts = {
             ensure_installed = {
                 --"bashls",
-                --"rust_analyzer",
+                "rust_analyzer",
                 "bacon_ls",
                 "slint_lsp",
             },
