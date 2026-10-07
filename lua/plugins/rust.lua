@@ -4,6 +4,8 @@ return {
         opts = {
             ensure_installed = {
                 "bacon",
+                "bacon-ls",
+                "slint-lsp",
             }
         }
     },
@@ -12,8 +14,8 @@ return {
         opts = {
             ensure_installed = {
                 --"rust_analyzer",
-                "bacon_ls",
-                "slint_lsp",
+                --"bacon_ls",
+                --"slint_lsp",
             },
         },
     },
