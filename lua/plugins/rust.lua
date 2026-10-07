@@ -2,13 +2,21 @@ return {
     {
         "mason-org/mason-lspconfig.nvim",
         opts = {
-            ensure_installed = { "rust_analyzer", "bacon_ls", "slint_lsp" },
+            ensure_installed = {
+                --"rust_analyzer",
+                "bacon_ls",
+                "slint_lsp",
+            },
         },
     },
     {
         "nvim-treesitter/nvim-treesitter",
         opts = {
-            ensure_installed = { "rust", "ron", "slint" },
+            ensure_installed = {
+                "rust",
+                "ron",
+                "slint",
+            },
         },
     },
     {
