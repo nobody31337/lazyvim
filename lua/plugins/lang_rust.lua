@@ -8,7 +8,7 @@ return {
                 "bacon",
                 "bacon-ls",
                 "slint-lsp",
-                "rust_analyzer",
+                "rust-analyzer",
             }
         }
     },
